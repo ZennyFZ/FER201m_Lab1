@@ -28,6 +28,69 @@
   color: #61dafb;
 }
 
+*{
+  margin:0;
+}
+
+body{
+  background-color: bisque;
+  background-repeat: no-repeat;
+}
+
+.navi{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #282c34;
+  padding: 2px;
+  margin-bottom: 2%;
+  list-style-type: none;
+}
+
+.navi li{
+  display: inline;
+  padding: 10px;
+}
+
+.navi li a{
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navi li a:hover{
+  background-color: rgb(58, 21, 159);
+}
+
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+}
+
+img{
+  width: 45%;
+}
+
+.movie{
+  color: black;
+  margin: 2%;
+}
+
+footer{
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 2%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
